@@ -52,17 +52,15 @@ const NotificationFilter = (props) => {
     return (
         <Box>
             <Header>
-                <Header>
-                    <Title>Filtro</Title>
-                    <IconBox>
-                        <Icon>x Buscar</Icon>
-                        <Icon>x Excluir</Icon>
-                    </IconBox>
-                </Header>
-                <CellBox>
-                    <SearchCell></SearchCell>
-                </CellBox>
+                <Title>Filtro</Title>
+                <IconBox>
+                    <Icon>x Buscar</Icon>
+                    <Icon>x Excluir</Icon>
+                </IconBox>
             </Header>
+            <CellBox>
+                <SearchCell></SearchCell>
+            </CellBox>
         </Box>
     );
 }
